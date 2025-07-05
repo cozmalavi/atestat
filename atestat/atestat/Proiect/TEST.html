@@ -1,0 +1,181 @@
+﻿<!Doctype html>
+<html>
+	<head>
+		<title>Test</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="Css/style.css">
+		<script type="text/javascript" src="Java\jquery.js"></script>
+		<script type="text/javascript" src="Java\quiz-1.js"></script>
+	<style>
+	.answers li { 
+list-style: upper-alpha; 
+} 
+
+label { 
+margin-left: 0.5em; 
+cursor: pointer; 
+} 
+
+#results { 
+background: #dddada; 
+color: 000000; 
+padding: 3px; 
+text-align: center; 
+width: 200px; 
+cursor: pointer; 
+border: 1px solid gray; 
+}
+
+#results:hover { 
+background: #3d91b8; 
+color: #ffffff; 
+padding: 3px; 
+text-align: center; 
+width: 200px; 
+cursor: pointer; 
+border: 1px solid gray; 
+} 
+
+#categorylist { 
+margin-top: 6px; 
+display: none; 
+} 
+
+#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 { 
+display: none; 
+}
+
+#closing {
+display: none;
+font-style: italic;
+}
+p , label{
+font-size: 120%
+}
+footer{
+	padding:0.1em;
+	background-color:#0E5244;
+	clear:left;
+	text-align:center;
+}
+header{
+	padding:10px;
+	background-color:#0E5244;
+	clear:left;
+	text-align:center;
+	padding-bottom:0.1mm;
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+	text-align:left;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.animatie:hover{
+		background-color: #3e8e41;
+	}
+.animatie2{
+		background-color: #3e8e41;
+	}
+		</style>
+	</head>
+	<body background="IMG/Back.jpg" style=" background-attachment: fixed;">
+	<div align="center" id="mainContainer">
+	   <section id="content-section"> 
+	   <header>
+	   
+		<p style="float: left;"><font color="white" size="+3" style="font-family:verdana">
+		<b>&emsp; Sistemul osos </b></font>
+		<center align="right" style="margin-right:5px;">
+			<br>
+			<a href="../Home.html" target="_parent">
+				<button class="dropbtn animatie"><b>Acasă</b></button>
+			</a>
+			
+			<a href="Despre.html" target="_parent">
+				<button class="dropbtn animatie2"><b>Argument</b></button>
+			</a>
+			
+			<div class="dropdown">
+			  	<button class="dropbtn" ><b>Cuprins</b></button>
+			  	<div  class="dropdown-content">
+				    <a href="IDCA.html">Sistemul osos</a>
+				    <a href="CB.html">Scheletul capului</a>
+				    <a href="MT.html">Scheletul trunchiului</a>
+					<a href="PCE.html">Scheletul membrelor</a>
+					<a href="G3.html">Creșterea oaselor</a>
+					<a href="IR.html">Rolul sistemului osos</a>
+					<a href="SF.html">Noțiuni elementare de igienă și patologie</a>
+					<a href="HC.html">Curiozități despre scheletul uman</a>
+			  </div>
+			</div>
+			
+			<a href="Concluzie.html" target="_parent">
+				<button class="dropbtn animatie"><b>Concluzie</b></button>
+			</a>
+			
+			<a href="TEST.html" target="_parent">
+				<button class="dropbtn animatie"><b>Bibliografie</b></button>
+			</a>
+		</center></p>
+	   </header>
+		<div  align="left" class="message">
+		<br><center>
+	<font size="+2"><u><b>Bibliografie</b></u></font>
+<p align="left">&emsp;,,Biologie - anatomie și fiziologie umană, genetică și ecologie umană”, editura DELFIN
+<p align="left">&emsp;,,Biologie – Manual pentru clasa a XI-a”, editura CORINT
+<p align="left">&emsp;,,Corpul uman”, editura NGV
+<p align="left">&emsp;http://bacbioro.weebly.com/sistemul-osos.html
+<p align="left">&emsp;https://ro.wikipedia.org/wiki/Schelet_uman
+<p align="left">&emsp;https://www.twinkl.ro/teaching-wiki/scheletul-uman
+<p align="left">&emsp;https://anatomie.romedic.ro/sistemul-osos
+	</center>
+	<center>   
+
+		 <footer>
+		 <p align="left"><font color="white" style="margin-left:5px;" >
+	<span style="float:right; margin-right:5px;"><u>Sistemul osos</u></span></font> </p></footer>
+	   </section>
+	</div>
+	<script>
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+}
+</script>
+	</body>
+</html>

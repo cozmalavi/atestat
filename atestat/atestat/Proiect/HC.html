@@ -1,0 +1,332 @@
+﻿<!Doctype html>
+	<head>
+		<title>HomePC</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="Css/style.css">
+		<style>
+		#myImg {
+		border: thick solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+#caption2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+#caption3 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close2 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+footer{
+	padding:0.1em;
+	background-color:#0E5244;
+	clear:left;
+	text-align:center;
+}
+header{
+	padding:10px;
+	background-color:#0E5244;
+	clear:left;
+	text-align:center;
+	padding-bottom:0.1mm;
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+	text-align:left;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.animatie:hover{
+		background-color: #3e8e41;
+	}
+.animatie2{
+		background-color: #3e8e41;
+	}
+		</style>
+	</head>
+	<body background="IMG/Back.jpg" style=" background-attachment: fixed; overflow: visible;">
+	<div align="center" id="mainContainer">
+	   <section id="content-section"> 
+	   <header>
+	   
+		<p style="float: left;"><font color="white" size="+3" style="font-family:verdana">
+		<b>&emsp;  Sistemul osos </b></font>
+		<center align="right" style="margin-right:5px;">
+			<br>
+			<a href="../Home.html" target="_parent">
+				<button class="dropbtn animatie"><b>Acasă</b></button>
+			</a>
+			
+			<a href="Despre.html" target="_parent">
+				<button class="dropbtn animatie2"><b>Argument</b></button>
+			</a>
+			
+			<div class="dropdown">
+			  	<button class="dropbtn" ><b>Cuprins</b></button>
+			  	<div  class="dropdown-content">
+				    <a href="IDCA.html">Sistemul osos</a>
+				    <a href="CB.html">Scheletul capului</a>
+				    <a href="MT.html">Scheletul trunchiului</a>
+					<a href="PCE.html">Scheletul membrelor</a>
+					<a href="G3.html">Creșterea oaselor</a>
+					<a href="IR.html">Rolul sistemului osos</a>
+					<a href="SF.html">Noțiuni elementare de igienă și patologie</a>
+					<a href="HC.html">Curiozități despre scheletul uman</a>
+			  </div>
+			</div>
+			
+			<a href="Concluzie.html" target="_parent">
+				<button class="dropbtn animatie"><b>Concluzie</b></button>
+			</a>
+			
+			<a href="TEST.html" target="_parent">
+				<button class="dropbtn animatie"><b>Bibliografie</b></button>
+			</a>
+		</center></p>
+	   </header>
+		<div  align="left" class="message">
+		<center><br><br>
+		
+		</center><br>
+		<center><p><big><font size="+1">
+		<table>
+			<tr>
+				<th><big><font size="+2"><u>Curiozități despre scheletul uman</u></th>
+			</tr>
+			<tr>
+				<td><big><font size="+1"><p> &emsp; &emsp;	La naștere, scheletul uman are peste 300 de oase, iar în timp acestea se contopesc. Un adult are 206 oase în corpul său.
+ 	<p> &emsp;&emsp;Cel mai mic os din scheletul uman este scărița; acesta se află în urechea internă, având o dimensiune de aproximativ 3 mm;
+ 	<p> &emsp;&emsp;Mai mult de jumătate din oasele scheletului uman sunt repartizate în membre;
+ 	<p> &emsp;&emsp;Dinții sunt și ei tot oase, dar mult mai dure decât oasele obișnuite. Acel lucru se datorează învelișului de smalț care îi înconjoară;
+ 	<p> &emsp;&emsp;Oasele piciorului cresc mai repede decât orice alt os din corpul tău;
+ 	<p> &emsp;&emsp;Cel mai mare, mai dur și mai lung os din scheletul uman, femurul, reprezintă cam un sfert din înălțimea corpului;
+ 	<p> &emsp;&emsp;Scheletul reprezintă aproximativ 20% din greutatea corpului (în situații normo ponderale);
+ 	<p> &emsp;&emsp;De la 30 de ani oamenii încep să scadă în înălțime;
+ 	<p> &emsp;&emsp;Dimineața corpul este mai lung cu circa 1-2 cm;
+ 	<p> &emsp;&emsp;Oasele corpului uman nu sunt albe, ele au o culoare bej sau maro-deschis! Albul scheletelor se datorează produselor de curățare cu care sunt tratate oasele;
+ 	<p> &emsp;&emsp;Un singur om poate dona organe, oase și țesuturi pentru 50 de persoane.
+
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				
+			</tr>
+			<tr>
+				
+			</tr>
+		</table>
+		 </center>
+		 </div>
+		 <footer>
+		 <p align="left"><font color="white" style="margin-left:5px;" >
+	<span style="float:right; margin-right:5px;"><u>Curiozități despre scheletul uman</u></span></font> </p></footer>
+	   </section>
+	</div>
+		<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img">
+  <div id="caption"></div>
+</div>
+<div id="myModal2" class="modal">
+  <span class="close2">×</span>
+  <img class="modal-content" id="img2">
+  <div id="caption2"></div>
+</div>
+<div id="myModal3" class="modal">
+  <span class="close3">×</span>
+  <img class="modal-content" id="img3">
+  <div id="caption3"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+
+</script>
+
+	</body>
+</html>
